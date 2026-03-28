@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tricat | Do pobrania</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../styles.css" />
+    <script defer src="../script.js"></script>
+    <style>
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .footer {
+        background-color: rgb(214, 214, 214);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="visually-hidden">Tricat</h1>
+      <img class="header__logo" src="../assets/logo.svg" alt="Tricat logo" />
+      <button class="header__nav-open-button">
+        <img src="../assets/icons/menu.svg" alt="Ikona menu" />
+      </button>
+      <nav class="header__nav">
+        <button class="header__nav-close-button">
+          <img src="../assets/icons/x.svg" alt="Ikona zamknięcia menu" />
+        </button>
+        <ul>
+          <li><a href="/">Strona główna</a></li>
+          <li>
+            <a href="/#o-nas">O nas </a>
+          </li>
+          <li>
+            <a href="/#oferta">Oferta</a>
+          </li>
+          <li><a class="active-page" href="/do-pobrania">Do pobrania</a></li>
+          <li><a href="/#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <article class="downloads">
+      <h2 class="downloads__title">Do pobrania</h2>
+      <ul>
+        <li>
+          <a href="../assets/documents/wypowiedzenie_oc.doc" download>
+            <img src="../assets/icons/file-down.svg" alt="Ikona pobierania" />
+            Wypowiedzenie o ubezpieczeniu OC
+          </a>
+        </li>
+        <li>
+          <a
+            href="../assets/documents/oswiadczenie_sprawcy_wypadku_tricat.doc"
+            download
+          >
+            <img src="../assets/icons/file-down.svg" alt="Ikona pobierania" />
+            Oświadczenie sprawcy wypadku
+          </a>
+        </li>
+        <li>
+          <a href="../assets/documents/wniosek_o_zwrot_skladki.docx" download>
+            <img src="../assets/icons/file-down.svg" alt="Ikona pobierania" />
+            Wniosek o zwrot składki
+          </a>
+        </li>
+        <li>
+          <a
+            href="../assets/documents/powiadomienie_o_zbyciu_pojazdu.doc"
+            download
+          >
+            <img src="../assets/icons/file-down.svg" alt="Ikona pobierania" />
+            Powiadomienie o zbyciu pojazdu
+          </a>
+        </li>
+        <li>
+          <a
+            href="../assets/documents/upowaznienie_o_wydanie_zaswiadczenia_i_przygotowanie_floty.doc"
+            download
+          >
+            <img src="../assets/icons/file-down.svg" alt="Ikona pobierania" />
+            Upoważnienie o wydanie zaświadczenia <br />
+            i przygotowanie oferty flotowej
+          </a>
+        </li>
+      </ul>
+    </article>
+    <footer class="footer">
+      <a href="tel:+48603989821">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M13.832 16.568C14.0385 16.6628 14.2712 16.6845 14.4917 16.6294C14.7122 16.5744 14.9073 16.4458 15.045 16.265L15.4 15.8C15.5863 15.5516 15.8279 15.35 16.1056 15.2111C16.3833 15.0723 16.6895 15 17 15H20C20.5304 15 21.0391 15.2107 21.4142 15.5858C21.7893 15.9609 22 16.4696 22 17V20C22 20.5304 21.7893 21.0391 21.4142 21.4142C21.0391 21.7893 20.5304 22 20 22C15.2261 22 10.6477 20.1036 7.27208 16.7279C3.89642 13.3523 2 8.7739 2 4C2 3.46957 2.21071 2.96086 2.58579 2.58579C2.96086 2.21071 3.46957 2 4 2H7C7.53043 2 8.03914 2.21071 8.41421 2.58579C8.78929 2.96086 9 3.46957 9 4V7C9 7.31049 8.92771 7.61672 8.78885 7.89443C8.65 8.17214 8.44839 8.41371 8.2 8.6L7.732 8.951C7.54842 9.09118 7.41902 9.29059 7.36579 9.51535C7.31256 9.74012 7.33878 9.97638 7.44 10.184C8.80668 12.9599 11.0544 15.2048 13.832 16.568Z"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        +48 603 989 821</a
+      >
+      <a class="hide-small" href="tel:+48726620225">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M13.832 16.568C14.0385 16.6628 14.2712 16.6845 14.4917 16.6294C14.7122 16.5744 14.9073 16.4458 15.045 16.265L15.4 15.8C15.5863 15.5516 15.8279 15.35 16.1056 15.2111C16.3833 15.0723 16.6895 15 17 15H20C20.5304 15 21.0391 15.2107 21.4142 15.5858C21.7893 15.9609 22 16.4696 22 17V20C22 20.5304 21.7893 21.0391 21.4142 21.4142C21.0391 21.7893 20.5304 22 20 22C15.2261 22 10.6477 20.1036 7.27208 16.7279C3.89642 13.3523 2 8.7739 2 4C2 3.46957 2.21071 2.96086 2.58579 2.58579C2.96086 2.21071 3.46957 2 4 2H7C7.53043 2 8.03914 2.21071 8.41421 2.58579C8.78929 2.96086 9 3.46957 9 4V7C9 7.31049 8.92771 7.61672 8.78885 7.89443C8.65 8.17214 8.44839 8.41371 8.2 8.6L7.732 8.951C7.54842 9.09118 7.41902 9.29059 7.36579 9.51535C7.31256 9.74012 7.33878 9.97638 7.44 10.184C8.80668 12.9599 11.0544 15.2048 13.832 16.568Z"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        +48 726 620 225</a
+      >
+      <a class="hide-small" href="mailto:biuro@tricat.pl">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 7L13.009 12.727C12.7039 12.9042 12.3573 12.9976 12.0045 12.9976C11.6517 12.9976 11.3051 12.9042 11 12.727L2 7M4 4H20C21.1046 4 22 4.89543 22 6V18C22 19.1046 21.1046 20 20 20H4C2.89543 20 2 19.1046 2 18V6C2 4.89543 2.89543 4 4 4Z"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        biuro@tricat.pl</a
+      >
+    </footer>
+  </body>
+</html>
